@@ -1,5 +1,5 @@
 let fs = require("fs");
-let filePath = process.platform === "linux" ? "/dev/stdin" : "./baekjoon/18353.txt";
+let filePath = process.platform === "linux" ? "/dev/stdin" : "./baekjoon/tc/18353.txt";
 let input = fs.readFileSync(filePath).toString().split("\n");
 
 function lowerBound(arr, target, start, end) {

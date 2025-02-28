@@ -1,5 +1,5 @@
 let fs = require("fs");
-let filePath = process.platform === "linux" ? "/dev/stdin" : "./baekjoon/1003.txt";
+let filePath = process.platform === "linux" ? "/dev/stdin" : "./baekjoon/tc/1003.txt";
 let input = fs.readFileSync(filePath).toString().split("\n");
 
 let d = Array(41).fill(0);

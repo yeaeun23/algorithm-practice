@@ -1,5 +1,5 @@
 let fs = require("fs");
-let filePath = process.platform === "linux" ? "/dev/stdin" : "./baekjoon/2805.txt";
+let filePath = process.platform === "linux" ? "/dev/stdin" : "./baekjoon/tc/2805.txt";
 let input = fs.readFileSync(filePath).toString().split("\n");
 
 let [tree, need] = input[0].split(" ").map(Number);

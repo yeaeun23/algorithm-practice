@@ -1,5 +1,5 @@
 let fs = require("fs");
-let filePath = process.platform === "linux" ? "/dev/stdin" : "./baekjoon/1697.txt";
+let filePath = process.platform === "linux" ? "/dev/stdin" : "./baekjoon/tc/1697.txt";
 let input = fs.readFileSync(filePath).toString().split("\n");
 
 class Queue {
